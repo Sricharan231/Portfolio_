@@ -1,0 +1,145 @@
+body {
+    background: beige;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: darkgray;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+#nav_right {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding-inline-end: 3px;
+    margin-inline-end: 5px;
+}
+
+#pplogo {
+    padding: 3px;
+    margin: 5px;
+}
+
+#right {
+    padding: 3px;
+    margin: 5px;
+}
+
+#prof {
+    padding: 1%;
+    margin: 1%;
+    padding-left: 5%;
+    margin-left: 5%;
+}
+
+#company-name {
+    color: white;
+    text-align: center;
+}
+
+#user-name {
+    color: white;
+    text-align: center;
+}
+
+
+/* #main {
+    text-align: left;
+    padding-left: 1%;
+    margin-left: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    position: absolute;
+    width: 30%;
+    height: 750px;
+    left: 14px;
+    top: 100px;
+    background: #FFFFFF;
+} */
+
+#main {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    height: 55%;
+    background: #FFFFFF;
+    margin: 40px;
+    padding: 10px;
+}
+
+#rights {
+    display: flex;
+    flex-direction: column;
+    width: 64%;
+    height: 100%;
+    margin: 40px;
+}
+
+#education {
+    background: #FFFFFF;
+    padding: 20px;
+    height: 277px;
+}
+
+#education {
+    background: #FFFFFF;
+    padding: 20px;
+    height: 277px;
+}
+
+#work-experience {
+    background: #FFFFFF;
+    padding: 21px;
+    height: 731px;
+    margin-top: 30px;
+}
+
+#description {
+    width: 763px;
+    padding: 3px;
+}
+
+#projects {
+    background: #FFFFFF;
+    padding: 20px;
+    height: 382px;
+    margin-top: 30px;
+}
+
+#about-projects {
+    display: flex;
+    width: 1116px;
+    font-weight: 400;
+    size: 20px;
+    line-height: 30px;
+    letter-spacing: 2%;
+    padding: 3;
+}
+
+#frameworks {
+    background: #FFFFFF;
+    margin-top: 30px;
+    padding: 21px;
+}
+
+#achievements {
+    background: #FFFFFF;
+    margin-top: 30px;
+    padding: 21px;
+}
